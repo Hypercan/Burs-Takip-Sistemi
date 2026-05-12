@@ -20,5 +20,15 @@ namespace BursTakip.Data
         public DbSet<Document> Documents { get; set; }
         public DbSet<ApplicationDocument> ApplicationDocuments { get; set; }
         public DbSet<SystemLog> SystemLogs { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Veritabanındaki tüm tablolar için "Otomatik Silme" (Cascade Delete) özelliğini kapatıyoruz
+            foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            {
+                relationship.DeleteBehavior = DeleteBehavior.Restrict;
+            }
+        }
     }
 }

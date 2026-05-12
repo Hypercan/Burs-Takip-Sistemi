@@ -18,6 +18,7 @@ namespace BursTakip.Models
         public string ProgramName { get; set; }
 
         [Required]
+        [Column(TypeName = "decimal(18,2)")] // Toplam 18 rakam, virgülden sonra 2 hane (Örn: 1500,50)
         public decimal Amount { get; set; }
 
         // Zorunlu olmayan kriterler için soru işareti (?) kullanıyoruz
@@ -25,6 +26,7 @@ namespace BursTakip.Models
         public int? Quota { get; set; }
         public string GenderCriteria { get; set; }
         public string DepartmentCriteria { get; set; }
+        [Column(TypeName = "decimal(4,2)")] // Toplam 4 rakam, virgülden sonra 2 hane (Örn: 3,50)
         public decimal? MinGPA { get; set; }
 
         public string Status { get; set; } // taslak / onay_bekliyor / aktif / kapali / reddedildi
