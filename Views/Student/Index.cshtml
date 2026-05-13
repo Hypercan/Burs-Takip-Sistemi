@@ -1,0 +1,93 @@
+@model BursTakip.Models.StudentProfile
+@{
+    ViewData["Title"] = "Öğrenci Profilim";
+}
+
+<div class="container mt-4">
+<!-- Profil ve Belgeler arası geçiş menüsü -->
+    <div class="mb-4">
+        <a asp-action="Index" class="btn btn-primary">Profil Bilgilerim</a>
+        <a asp-action="Documents" class="btn btn-outline-primary">Belgelerim</a>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Profil Bilgilerim</h4>
+                </div>
+                <div class="card-body">
+                    
+                    <!-- Kayıt başarılıysa yeşil mesaj kutusu çıkar -->
+                    @if (ViewBag.Message != null)
+                    {
+                        <div class="alert alert-success">@ViewBag.Message</div>
+                    }
+
+                    <form asp-controller="Student" asp-action="Index" method="post">
+                        
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Adınız</label>
+                                <input type="text" class="form-control" name="FirstName" value="@Model.FirstName" required />
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Soyadınız</label>
+                                <input type="text" class="form-control" name="LastName" value="@Model.LastName" required />
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Doğum Tarihi</label>
+                                <!-- Tarih formatını HTML input'a uygun (yyyy-MM-dd) hale getiriyoruz -->
+                                <input type="date" class="form-control" name="BirthDate" value="@(Model.BirthDate == DateTime.MinValue ? "" : Model.BirthDate.ToString("yyyy-MM-dd"))" required />
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Cinsiyet</label>
+                                <select class="form-select" name="Gender" required>
+                                    <option value="">Seçiniz...</option>
+                                    <!-- Modeldeki değere göre hangisinin seçili geleceğini ayarlıyoruz -->
+                                    <option value="Kadın" selected="@(Model.Gender == "Kadın")">Kadın</option>
+                                    <option value="Erkek" selected="@(Model.Gender == "Erkek")">Erkek</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Okulunuz (Üniversite vb.)</label>
+                                <input type="text" class="form-control" name="School" value="@Model.School" required />
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Bölümünüz</label>
+                                <input type="text" class="form-control" name="Department" value="@Model.Department" required />
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Telefon Numarası</label>
+                                <input type="tel" class="form-control" name="Phone" value="@Model.Phone" required />
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Banka IBAN Numarası</label>
+                                <input type="text" class="form-control" name="IBAN" value="@Model.IBAN" placeholder="TR..." required />
+                            </div>
+                        </div>
+
+                        <!-- Gizli alanlar: Null hatalarını önlemek için şu anlık rastgele veriler -->
+                        <input type="hidden" name="Address" value="Belirtilmedi" />
+                        <input type="hidden" name="BankName" value="Belirtilmedi" />
+                        <input type="hidden" name="PhotoPath" value="default.png" />
+                        <input type="hidden" name="DisabilityStatus" value="false" />
+
+                        <div class="text-end mt-3">
+                            <button type="submit" class="btn btn-primary px-4">Kaydet / Güncelle</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
