@@ -1,8 +1,46 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<BursTakip.Models.ScholarshipProgram>
+@{
+    ViewData["Title"] = "Ana Sayfa - Aktif Burslar";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center mb-5 mt-4">
+    <h1 class="display-4 fw-bold text-primary">Geleceğine Destek Olacak Bursu Bul!</h1>
+    <p class="lead text-muted">Sistemimizdeki aktif burs ilanlarını inceleyin ve tek tıkla başvurun.</p>
+</div>
+
+<div class="row">
+    @if (!Model.Any())
+    {
+        <div class="col-12">
+            <div class="alert alert-info text-center shadow-sm">
+                <h5>Şu anda sistemde aktif bir burs ilanı bulunmamaktadır.</h5>
+                <p class="mb-0">Kurumlar yeni ilanlar yayınladığında burada listelenecektir. Lütfen daha sonra tekrar kontrol ediniz.</p>
+            </div>
+        </div>
+    }
+    else
+    {
+        @foreach (var burs in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-header bg-white border-bottom-0 pt-4 pb-0">
+                        <h5 class="card-title text-success fw-bold">@burs.ProgramName</h5>
+                        <h6 class="card-subtitle text-muted">@burs.Institution.InstitutionName</h6>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-0">
+                            <li class="mb-2"><strong>Miktar:</strong> @burs.Amount.ToString("N2") ₺ / Ay</li>
+                            <li class="mb-2"><strong>Süre:</strong> @burs.DurationMonths Ay</li>
+                            <li class="mb-2"><strong>Son Başvuru:</strong> <span class="text-danger fw-bold">@burs.ApplicationDeadline.ToString("dd.MM.yyyy")</span></li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-white border-top-0 pb-4 text-center">
+                        <!-- Bu buton bizi birazdan yapacağımız Başvuru (Application) sayfasına atacak -->
+                        <a asp-controller="Application" asp-action="Details" asp-route-id="@burs.ProgramID" class="btn btn-outline-success w-100 fw-bold">Detayları Gör ve Başvur</a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
 </div>

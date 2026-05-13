@@ -1,24 +1,37 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Burs_Takip_Sistemi.Models;
+using Microsoft.EntityFrameworkCore;
+using BursTakip.Data;
+using BursTakip.Models;
 
-namespace Burs_Takip_Sistemi.Controllers;
-
-public class HomeController : Controller
+namespace BursTakip.Controllers
 {
-    public IActionResult Index()
+    public class HomeController : Controller
     {
-        return View();
-    }
+        private readonly ApplicationDbContext _context;
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+        public HomeController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        public IActionResult Index()
+        {
+            // Veritabanından sadece "Aktif" olan ve son başvuru tarihi geçmemiş bursları çekiyoruz.
+            // .Include(s => s.Institution) kodu, bursa bağlı olan Kurumun adını da almamızı sağlar.
+            var activeScholarships = _context.ScholarshipPrograms
+                .Include(s => s.Institution) 
+                .Where(s => s.Status == "Aktif" && s.ApplicationDeadline >= DateTime.Now)
+                .OrderByDescending(s => s.CreatedAt)
+                .ToList();
+
+            return View(activeScholarships);
+        }
+
+        // Hata sayfası için standart metod (buna dokunmuyoruz)
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View();
+        }
     }
 }

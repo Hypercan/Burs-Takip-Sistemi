@@ -1,0 +1,91 @@
+@model IEnumerable<BursTakip.Models.Document>
+@{
+    ViewData["Title"] = "Belgelerim";
+}
+
+<div class="container mt-4">
+    <!-- Profil ve Belgeler arası geçiş menüsü -->
+    <div class="mb-4">
+        <a asp-action="Index" class="btn btn-outline-primary">Profil Bilgilerim</a>
+        <a asp-action="Documents" class="btn btn-primary">Belgelerim</a>
+    </div>
+
+    <div class="row">
+        <!-- Sol Taraf: Belge Yükleme Formu -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0">Yeni Belge Yükle</h5>
+                </div>
+                <div class="card-body">
+                    
+                    @if (TempData["Message"] != null)
+                    {
+                        <div class="alert alert-success">@TempData["Message"]</div>
+                    }
+
+                    <!-- DİKKAT: Dosya yüklemek için enctype="multipart/form-data" KESİNLİKLE zorunludur -->
+                    <form asp-controller="Student" asp-action="UploadDocument" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Belge Türü</label>
+                            <select class="form-select" name="documentType" required>
+                                <option value="">Seçiniz...</option>
+                                <option value="Transkript">Transkript</option>
+                                <option value="Kimlik Fotokopisi">Kimlik Fotokopisi</option>
+                                <option value="Öğrenci Belgesi">Öğrenci Belgesi</option>
+                                <option value="Adli Sicil Kaydı">Adli Sicil Kaydı</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Dosya Seçin (PDF/Resim)</label>
+                            <input type="file" class="form-control" name="file" accept=".pdf, .jpg, .jpeg, .png" required />
+                        </div>
+                        <button type="submit" class="btn btn-success w-100">Yükle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sağ Taraf: Yüklenen Belgeler Listesi -->
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-dark text-white">
+                    <h5 class="mb-0">Sisteme Yüklediğim Belgeler</h5>
+                </div>
+                <div class="card-body">
+                    @if (!Model.Any())
+                    {
+                        <div class="alert alert-warning">
+                            Henüz sisteme hiç belge yüklemediniz. Burslara başvurabilmek için kurumların talep ettiği belgeleri buradan yüklemelisiniz.
+                        </div>
+                    }
+                    else
+                    {
+                        <table class="table table-striped table-hover align-middle">
+                            <thead>
+                                <tr>
+                                    <th>Belge Türü</th>
+                                    <th>Yüklenme Tarihi</th>
+                                    <th class="text-end">İşlem</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var doc in Model)
+                                {
+                                    <tr>
+                                        <td><strong>@doc.DocumentType</strong></td>
+                                        <td>@doc.UploadedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                                        <td class="text-end">
+                                            <!-- target="_blank" dosyayı yeni sekmede açar -->
+                                            <a href="@doc.FilePath" target="_blank" class="btn btn-sm btn-outline-primary">Görüntüle</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,37 +1,48 @@
 using Microsoft.EntityFrameworkCore;
 using BursTakip.Data;
+using Microsoft.AspNetCore.Authentication.Cookies; // Bizim eklediğimiz
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// 1. SERVİSLER BURAYA EKLENİR (Build'den ÖNCE)
 builder.Services.AddControllersWithViews();
-// Veritabanı bağlantımızı (DbContext) sisteme tanıtıyoruz:
-// Veritabanı bağlantımızı (DbContext) sisteme tanıtıyoruz ve zaman aşımı süresini uzatıyoruz:
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         sqlServerOptions => sqlServerOptions.CommandTimeout(180)));
+
+// Kimlik Doğrulama (Cookie) Ayarları BURADA OLMALI
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Auth/Login";
+        options.LogoutPath = "/Auth/Logout";
+        options.AccessDeniedPath = "/Auth/AccessDenied";
+        options.Cookie.Name = "BursTakipCookie";
+        options.ExpireTimeSpan = TimeSpan.FromDays(7);
+    });
+
+// --- MOTOR BURADA KİLİTLENİR ---
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// 2. MIDDLEWARE (ARAYAZILIM) AYARLARI BURAYA EKLENİR (Build'den SONRA)
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+
 app.UseRouting();
 
+app.UseAuthentication(); // Bizim eklediğimiz (Authorization'dan önce olmalı)
 app.UseAuthorization();
-
-app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
-
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
