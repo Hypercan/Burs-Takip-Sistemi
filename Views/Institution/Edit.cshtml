@@ -1,0 +1,69 @@
+@model BursTakip.Models.InstitutionProfile
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>InstitutionProfile</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="InstitutionID" />
+            <div class="form-group">
+                <label asp-for="UserID" class="control-label"></label>
+                <select asp-for="UserID" class="form-control" asp-items="ViewBag.UserID"></select>
+                <span asp-validation-for="UserID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InstitutionName" class="control-label"></label>
+                <input asp-for="InstitutionName" class="form-control" />
+                <span asp-validation-for="InstitutionName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EntityType" class="control-label"></label>
+                <input asp-for="EntityType" class="form-control" />
+                <span asp-validation-for="EntityType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdentityNumber" class="control-label"></label>
+                <input asp-for="IdentityNumber" class="form-control" />
+                <span asp-validation-for="IdentityNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TaxCertificatePath" class="control-label"></label>
+                <input asp-for="TaxCertificatePath" class="form-control" />
+                <span asp-validation-for="TaxCertificatePath" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AuthorizedPersonName" class="control-label"></label>
+                <input asp-for="AuthorizedPersonName" class="form-control" />
+                <span asp-validation-for="AuthorizedPersonName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AuthorizedPersonPhone" class="control-label"></label>
+                <input asp-for="AuthorizedPersonPhone" class="form-control" />
+                <span asp-validation-for="AuthorizedPersonPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AuthorizedPersonEmail" class="control-label"></label>
+                <input asp-for="AuthorizedPersonEmail" class="form-control" />
+                <span asp-validation-for="AuthorizedPersonEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

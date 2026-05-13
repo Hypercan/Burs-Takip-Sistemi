@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/Burs-Takip-Sistemi.csproj": {}
+    "C:\\Users\\kenan\\OneDrive\\Desktop\\Programlama II proje\\Burs-Takip-Sistemi\\Burs-Takip-Sistemi.csproj": {}
   },
   "projects": {
-    "/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/Burs-Takip-Sistemi.csproj": {
+    "C:\\Users\\kenan\\OneDrive\\Desktop\\Programlama II proje\\Burs-Takip-Sistemi\\Burs-Takip-Sistemi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/Burs-Takip-Sistemi.csproj",
+        "projectUniqueName": "C:\\Users\\kenan\\OneDrive\\Desktop\\Programlama II proje\\Burs-Takip-Sistemi\\Burs-Takip-Sistemi.csproj",
         "projectName": "Burs-Takip-Sistemi",
-        "projectPath": "/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/Burs-Takip-Sistemi.csproj",
-        "packagesPath": "/Users/interaktifcan/.nuget/packages/",
-        "outputPath": "/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/obj/",
+        "projectPath": "C:\\Users\\kenan\\OneDrive\\Desktop\\Programlama II proje\\Burs-Takip-Sistemi\\Burs-Takip-Sistemi.csproj",
+        "packagesPath": "C:\\Users\\kenan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenan\\OneDrive\\Desktop\\Programlama II proje\\Burs-Takip-Sistemi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/interaktifcan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\kenan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -59,6 +65,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[10.0.2, )"
             }
           },
           "imports": [
@@ -80,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.203/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
