@@ -25,10 +25,13 @@
             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Ana Sayfa</a>
         </li>
         <!-- Eğer giriş yapılmışsa ve rol "student" ise Öğrenci Paneli linki görünsün -->
-        @if (User.Identity.IsAuthenticated && User.IsInRole("student"))
+       @if (User.Identity.IsAuthenticated && User.IsInRole("student"))
         {
             <li class="nav-item">
                 <a class="nav-link text-dark" asp-controller="Student" asp-action="Index">Öğrenci Panelim</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fw-bold text-success" asp-controller="Application" asp-action="MyApplications">Başvurularım</a>
             </li>
         }
         <!-- Eğer giriş yapılmışsa ve rol "institution" ise Kurum Paneli linki görünsün -->

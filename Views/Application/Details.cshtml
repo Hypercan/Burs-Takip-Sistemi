@@ -1,0 +1,68 @@
+@model BursTakip.Models.ScholarshipProgram
+@{
+    ViewData["Title"] = "Burs Detayları";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger fw-bold">@TempData["Error"]</div>
+            }
+
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-primary text-white text-center py-4">
+                    <h3 class="mb-0">@Model.ProgramName</h3>
+                    <p class="mb-0 mt-2 text-light">@Model.Institution.InstitutionName</p>
+                </div>
+                <div class="card-body p-5">
+                    <h5 class="text-secondary border-bottom pb-2 mb-4">Burs Kriterleri ve Detaylar</h5>
+                    
+                    <div class="row mb-3">
+                        <div class="col-sm-4 fw-bold">Aylık Miktar:</div>
+                        <div class="col-sm-8 text-success fw-bold">@Model.Amount.ToString("N2") ₺</div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-4 fw-bold">Süre:</div>
+                        <div class="col-sm-8">@Model.DurationMonths Ay</div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-4 fw-bold">Kontenjan:</div>
+                        <div class="col-sm-8">@(Model.Quota?.ToString() ?? "Belirtilmemiş") Kişi</div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-4 fw-bold">Bölüm Şartı:</div>
+                        <div class="col-sm-8">@Model.DepartmentCriteria</div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-4 fw-bold">Min. Not Ortalaması:</div>
+                        <div class="col-sm-8">@(Model.MinGPA?.ToString("N2") ?? "Aranmıyor")</div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-4 fw-bold">Son Başvuru Tarihi:</div>
+                        <div class="col-sm-8 text-danger fw-bold">@Model.ApplicationDeadline.ToString("dd.MM.yyyy")</div>
+                    </div>
+
+                    <div class="alert alert-info mt-4 text-center">
+                        Sisteme yüklediğiniz belgeler (Transkript, Kimlik vb.) başvuru yaptığınızda otomatik olarak kurum yetkilisine iletilecektir.
+                    </div>
+
+                    <form asp-controller="Application" asp-action="Apply" method="post" class="mt-4">
+                        <input type="hidden" name="programId" value="@Model.ProgramID" />
+                        <!-- Sadece öğrenci giriş yaptıysa butonu aktif et, yapmadıysa giriş sayfasına yolla -->
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("student"))
+                        {
+                            <button type="submit" class="btn btn-success btn-lg w-100 fw-bold">Bu Bursa Başvur</button>
+                        }
+                        else
+                        {
+                            <a href="/Auth/Login" class="btn btn-warning btn-lg w-100 fw-bold">Başvurmak İçin Öğrenci Olarak Giriş Yapın</a>
+                        }
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
