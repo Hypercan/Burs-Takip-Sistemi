@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Burs_Takip_Sistemi</RootNamespace>
     <UserSecretsId>bf6f7c8b-3011-42b0-a91e-10240bbe2b67</UserSecretsId>
