@@ -148,7 +148,6 @@
 /Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/obj/Debug/net10.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/obj/Debug/net10.0/scopedcss/bundle/Burs-Takip-Sistemi.styles.css
 /Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/obj/Debug/net10.0/scopedcss/projectbundle/Burs-Takip-Sistemi.bundle.scp.css
-/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/kfgas8t926-{0}-b9sayid5wm-b9sayid5wm.gz
 /Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/js7m3s23q2-{0}-61n19gt1b8-61n19gt1b8.gz
 /Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/ze5qbtvwyj-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 /Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/ye67br4mxm-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -223,342 +222,457 @@
 /Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.pdb
 /Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.genruntimeconfig.cache
 /Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/obj/Debug/net10.0/ref/Burs-Takip-Sistemi.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\appsettings.Development.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\appsettings.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Burs-Takip-Sistemi.staticwebassets.runtime.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Burs-Takip-Sistemi.staticwebassets.endpoints.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Burs-Takip-Sistemi.exe
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Burs-Takip-Sistemi.deps.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Burs-Takip-Sistemi.runtimeconfig.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Burs-Takip-Sistemi.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Burs-Takip-Sistemi.pdb
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Azure.Core.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Azure.Identity.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Humanizer.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.Build.Framework.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.Identity.Client.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Mono.TextTemplating.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Newtonsoft.Json.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\System.ClientModel.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\System.CodeDom.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\System.Composition.AttributedModel.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\System.Composition.Convention.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\System.Composition.Hosting.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\System.Composition.Runtime.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\System.Composition.TypedParts.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\System.Memory.Data.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\Burs-Takip-Sistemi.csproj.AssemblyReference.cache
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\Burs-Takip-Sistemi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\Burs-Takip-Sistemi.AssemblyInfoInputs.cache
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\Burs-Takip-Sistemi.AssemblyInfo.cs
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\Burs-Takip-Sistemi.csproj.CoreCompileInputs.cache
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\Burs-Takip-Sistemi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\Burs-Takip-Sistemi.RazorAssemblyInfo.cache
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\Burs-Takip-Sistemi.RazorAssemblyInfo.cs
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\Burs-Takip-Sistemi.sourcelink.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\rjimswa.dswa.cache.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\scopedcss\bundle\Burs-Takip-Sistemi.styles.css
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\scopedcss\projectbundle\Burs-Takip-Sistemi.bundle.scp.css
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\kfgas8t926-{0}-b9sayid5wm-b9sayid5wm.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\js7m3s23q2-{0}-61n19gt1b8-61n19gt1b8.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\ze5qbtvwyj-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\ye67br4mxm-{0}-t1cqhe9u97-t1cqhe9u97.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\wo3v34ipkk-{0}-c2jlpeoesf-c2jlpeoesf.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\hdckx85hog-{0}-sejl45xvog-sejl45xvog.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\rfjodfxokp-{0}-aexeepp0ev-aexeepp0ev.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\ewsi5f84p0-{0}-xvp3kq03qx-xvp3kq03qx.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\0e9b940eju-{0}-ausgxo2sd3-ausgxo2sd3.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\8h39p5wch0-{0}-22vffe00uq-22vffe00uq.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\ohi8ltlfy3-{0}-cosvhxvwiu-cosvhxvwiu.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\5cxf3ajl6d-{0}-qesaa3a1fm-qesaa3a1fm.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\r1p79cf501-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\lggbf1yp4b-{0}-tmc1g35s3z-tmc1g35s3z.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\knxv7zrb94-{0}-fsbi9cje9m-fsbi9cje9m.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\do2b5ni3ue-{0}-rxsg74s51o-rxsg74s51o.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\30ppmxk6j7-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\fxigfcikwe-{0}-q9ht133ko3-q9ht133ko3.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\me0lbnicy3-{0}-jd9uben2k1-jd9uben2k1.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\ihxz7mo6kq-{0}-gye83jo8yx-gye83jo8yx.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\1nuq1qpvdt-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\mr2s6wujcx-{0}-wl58j5mj3v-wl58j5mj3v.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\3vf8yosec9-{0}-c2oey78nd0-c2oey78nd0.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\v22gy9k150-{0}-d4r6k3f320-d4r6k3f320.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\q5oyrp1flt-{0}-j5mq2jizvt-j5mq2jizvt.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\bnr6k4j4rw-{0}-keugtjm085-keugtjm085.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\odurzjvnri-{0}-nvvlpmu67g-nvvlpmu67g.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\sncvs9hhb4-{0}-zub09dkrxp-zub09dkrxp.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\rzrrujq4bk-{0}-pj5nd1wqec-pj5nd1wqec.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\uyjzk76aqf-{0}-43atpzeawx-43atpzeawx.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\g31t3wnaiw-{0}-v0zj4ognzu-v0zj4ognzu.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\tyd4q4d50l-{0}-ynyaa8k90p-ynyaa8k90p.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\7f9aon0inz-{0}-hrwsygsryq-hrwsygsryq.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\86zi1o4jp0-{0}-c63t5i9ira-c63t5i9ira.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\25x1vqa9mc-{0}-ft3s53vfgj-ft3s53vfgj.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\xhl2qmuv2h-{0}-4094rpi4f9-4094rpi4f9.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\xzcs0i6iiw-{0}-6pdc2jztkx-6pdc2jztkx.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\kjvo85jc4c-{0}-hd3gran6i8-hd3gran6i8.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\gf171wo8n7-{0}-iovd86k7lj-iovd86k7lj.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\2y2vg077j7-{0}-ltid2c489k-ltid2c489k.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\5ncjz87xlp-{0}-kbrnm935zg-kbrnm935zg.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\rr3yhmxo3u-{0}-8vyfqsqgz1-8vyfqsqgz1.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\d6emn0ser7-{0}-y7v9cxd14o-y7v9cxd14o.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\6c7gmn0ewv-{0}-u9q1upor1n-u9q1upor1n.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\kmbv90uh4b-{0}-h1s4sie4z3-h1s4sie4z3.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\0fn9wl957f-{0}-4d85u1mtcx-4d85u1mtcx.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\w9dcngx9ri-{0}-0j3bgjxly4-0j3bgjxly4.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\g5p5ov6xah-{0}-03hjc8e09r-03hjc8e09r.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\ay78msmj6r-{0}-48y08845bh-48y08845bh.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\izst3wymvx-{0}-356vix0kms-356vix0kms.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\exev3cc6p7-{0}-83jwlth58m-83jwlth58m.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\o5yvps0kg2-{0}-mrlpezrjn3-mrlpezrjn3.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\rgosmacj11-{0}-worgj0nhwm-worgj0nhwm.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\gvsmvo2fwy-{0}-gk0pw8i4co-gk0pw8i4co.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\sannpkrysq-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\yhhof7zan6-{0}-d6nrnj6jjx-d6nrnj6jjx.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\borex44azi-{0}-m9qm4tazc0-m9qm4tazc0.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\20ve4ehwbi-{0}-ttgo8qnofa-ttgo8qnofa.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\515fptviyj-{0}-jjsuc0puko-jjsuc0puko.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\igxb1suyz3-{0}-9vr69e8ynj-9vr69e8ynj.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\vmmnk4dojq-{0}-87fc7y1x7t-87fc7y1x7t.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\bgyaugjuxy-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\rz7haodnfh-{0}-uzvq08fq25-uzvq08fq25.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\compressed\n9ldrl8wt6-{0}-uzvq08fq25-uzvq08fq25.gz
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\staticwebassets.build.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\staticwebassets.build.json.cache
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\staticwebassets.development.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\staticwebassets.build.endpoints.json
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\Burs-Tak.6938D880.Up2Date
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\Burs-Takip-Sistemi.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\refint\Burs-Takip-Sistemi.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\Burs-Takip-Sistemi.pdb
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\Burs-Takip-Sistemi.genruntimeconfig.cache
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\obj\Debug\net10.0\ref\Burs-Takip-Sistemi.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.Build.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.CodeAnalysis.Elfie.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.CodeAnalysis.Features.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.DiaSymReader.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.DotNet.Scaffolding.Shared.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.NET.StringTools.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\dotnet-aspnet-codegenerator-design.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\NuGet.Common.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\NuGet.Configuration.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\NuGet.DependencyResolver.Core.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\NuGet.Frameworks.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\NuGet.LibraryModel.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\NuGet.Packaging.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\NuGet.ProjectModel.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\NuGet.Protocol.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\NuGet.Versioning.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\System.Reflection.MetadataLoadContext.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\af\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ar\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\az\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\bg\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\bn-BD\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\cs\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\da\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\de\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\el\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\es\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\fa\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\fi-FI\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\fr\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\fr-BE\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\he\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\hr\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\hu\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\hy\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\id\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\is\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\it\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ja\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ko-KR\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ku\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\lv\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ms-MY\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\mt\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\nb\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\nb-NO\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\nl\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pl\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pt\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ro\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ru\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\sk\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\sl\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\sr\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\sr-Latn\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\sv\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\th-TH\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\tr\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\uk\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\uz-Cyrl-UZ\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\uz-Latn-UZ\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\vi\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-CN\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hans\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hant\Humanizer.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\kenan\OneDrive\Desktop\Programlama II proje\Burs-Takip-Sistemi\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/appsettings.Development.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/appsettings.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Burs-Takip-Sistemi.staticwebassets.runtime.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Burs-Takip-Sistemi.staticwebassets.endpoints.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Burs-Takip-Sistemi.exe
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Burs-Takip-Sistemi.deps.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Burs-Takip-Sistemi.runtimeconfig.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Burs-Takip-Sistemi.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Burs-Takip-Sistemi.pdb
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Azure.Core.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Azure.Identity.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Humanizer.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.Bcl.Cryptography.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.Build.Framework.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.Data.SqlClient.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.Identity.Client.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.SqlServer.Server.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.VisualStudio.SolutionPersistence.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Mono.TextTemplating.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Newtonsoft.Json.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/System.ClientModel.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/System.CodeDom.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/System.Composition.AttributedModel.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/System.Composition.Convention.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/System.Composition.Hosting.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/System.Composition.Runtime.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/System.Composition.TypedParts.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/System.Configuration.ConfigurationManager.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/System.Memory.Data.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Microsoft.Data.SqlClient.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Microsoft.Data.SqlClient.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Microsoft.Data.SqlClient.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Microsoft.Data.SqlClient.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Microsoft.Data.SqlClient.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Microsoft.Data.SqlClient.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ko/Microsoft.Data.SqlClient.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Microsoft.Data.SqlClient.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Microsoft.Data.SqlClient.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Microsoft.Data.SqlClient.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/runtimes/unix/lib/net9.0/Microsoft.Data.SqlClient.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/runtimes/win/lib/net9.0/Microsoft.Data.SqlClient.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.csproj.AssemblyReference.cache
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/rpswa.dswa.cache.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.AssemblyInfoInputs.cache
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.AssemblyInfo.cs
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.csproj.CoreCompileInputs.cache
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.RazorAssemblyInfo.cache
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.RazorAssemblyInfo.cs
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.sourcelink.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/rjimswa.dswa.cache.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/scopedcss/bundle/Burs-Takip-Sistemi.styles.css
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/scopedcss/projectbundle/Burs-Takip-Sistemi.bundle.scp.css
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/kfgas8t926-{0}-b9sayid5wm-b9sayid5wm.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/js7m3s23q2-{0}-61n19gt1b8-61n19gt1b8.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/ze5qbtvwyj-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/ye67br4mxm-{0}-t1cqhe9u97-t1cqhe9u97.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/wo3v34ipkk-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/hdckx85hog-{0}-sejl45xvog-sejl45xvog.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/rfjodfxokp-{0}-aexeepp0ev-aexeepp0ev.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/ewsi5f84p0-{0}-xvp3kq03qx-xvp3kq03qx.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/0e9b940eju-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/8h39p5wch0-{0}-22vffe00uq-22vffe00uq.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/ohi8ltlfy3-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/5cxf3ajl6d-{0}-qesaa3a1fm-qesaa3a1fm.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/r1p79cf501-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/lggbf1yp4b-{0}-tmc1g35s3z-tmc1g35s3z.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/knxv7zrb94-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/do2b5ni3ue-{0}-rxsg74s51o-rxsg74s51o.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/30ppmxk6j7-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/fxigfcikwe-{0}-q9ht133ko3-q9ht133ko3.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/me0lbnicy3-{0}-jd9uben2k1-jd9uben2k1.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/ihxz7mo6kq-{0}-gye83jo8yx-gye83jo8yx.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/1nuq1qpvdt-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/mr2s6wujcx-{0}-wl58j5mj3v-wl58j5mj3v.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/3vf8yosec9-{0}-c2oey78nd0-c2oey78nd0.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/v22gy9k150-{0}-d4r6k3f320-d4r6k3f320.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/q5oyrp1flt-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/bnr6k4j4rw-{0}-keugtjm085-keugtjm085.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/odurzjvnri-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/sncvs9hhb4-{0}-zub09dkrxp-zub09dkrxp.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/rzrrujq4bk-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/uyjzk76aqf-{0}-43atpzeawx-43atpzeawx.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/g31t3wnaiw-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/tyd4q4d50l-{0}-ynyaa8k90p-ynyaa8k90p.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/7f9aon0inz-{0}-hrwsygsryq-hrwsygsryq.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/86zi1o4jp0-{0}-c63t5i9ira-c63t5i9ira.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/25x1vqa9mc-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/xhl2qmuv2h-{0}-4094rpi4f9-4094rpi4f9.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/xzcs0i6iiw-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/kjvo85jc4c-{0}-hd3gran6i8-hd3gran6i8.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/gf171wo8n7-{0}-iovd86k7lj-iovd86k7lj.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/2y2vg077j7-{0}-ltid2c489k-ltid2c489k.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/5ncjz87xlp-{0}-kbrnm935zg-kbrnm935zg.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/rr3yhmxo3u-{0}-8vyfqsqgz1-8vyfqsqgz1.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/d6emn0ser7-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/6c7gmn0ewv-{0}-u9q1upor1n-u9q1upor1n.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/kmbv90uh4b-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/0fn9wl957f-{0}-4d85u1mtcx-4d85u1mtcx.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/w9dcngx9ri-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/g5p5ov6xah-{0}-03hjc8e09r-03hjc8e09r.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/ay78msmj6r-{0}-48y08845bh-48y08845bh.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/izst3wymvx-{0}-356vix0kms-356vix0kms.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/exev3cc6p7-{0}-83jwlth58m-83jwlth58m.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/o5yvps0kg2-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/rgosmacj11-{0}-worgj0nhwm-worgj0nhwm.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/gvsmvo2fwy-{0}-gk0pw8i4co-gk0pw8i4co.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/sannpkrysq-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/yhhof7zan6-{0}-d6nrnj6jjx-d6nrnj6jjx.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/borex44azi-{0}-m9qm4tazc0-m9qm4tazc0.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/20ve4ehwbi-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/515fptviyj-{0}-jjsuc0puko-jjsuc0puko.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/igxb1suyz3-{0}-9vr69e8ynj-9vr69e8ynj.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/vmmnk4dojq-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/bgyaugjuxy-{0}-mlv21k5csn-mlv21k5csn.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/rz7haodnfh-{0}-uzvq08fq25-uzvq08fq25.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/n9ldrl8wt6-{0}-uzvq08fq25-uzvq08fq25.gz
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/staticwebassets.build.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/staticwebassets.build.json.cache
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/staticwebassets.development.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/swae.build.ex.cache
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Tak.6938D880.Up2Date
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/refint/Burs-Takip-Sistemi.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.pdb
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/Burs-Takip-Sistemi.genruntimeconfig.cache
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/obj/Debug/net10.0/ref/Burs-Takip-Sistemi.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.AspNetCore.Razor.Language.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.Build.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.Elfie.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.Features.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.Razor.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.DiaSymReader.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.DotNet.Scaffolding.Shared.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.NET.StringTools.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/dotnet-aspnet-codegenerator-design.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.Common.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.Configuration.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.DependencyResolver.Core.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.Frameworks.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.LibraryModel.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.Packaging.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.ProjectModel.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.Protocol.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.Versioning.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/System.Reflection.MetadataLoadContext.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/af/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ar/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/az/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/bg/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/bn-BD/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/da/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/el/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/fa/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/fi-FI/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/fr-BE/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/he/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/hr/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/hu/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/hy/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/id/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/is/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ko-KR/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ku/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/lv/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ms-MY/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/mt/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/nb/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/nb-NO/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/nl/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pt/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ro/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/sk/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/sl/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/sr/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/sr-Latn/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/sv/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/th-TH/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/uk/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/uz-Cyrl-UZ/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/uz-Latn-UZ/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/vi/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-CN/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Humanizer.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/kenan/OneDrive/Desktop/Programlama II proje/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.AspNetCore.Razor.Language.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.Build.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.Elfie.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.Features.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.Razor.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.CodeAnalysis.Scripting.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.DiaSymReader.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.DotNet.Scaffolding.Shared.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.NET.StringTools.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/dotnet-aspnet-codegenerator-design.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.Common.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.Configuration.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.DependencyResolver.Core.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.Frameworks.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.LibraryModel.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.Packaging.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.ProjectModel.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.Protocol.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/NuGet.Versioning.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/System.Reflection.MetadataLoadContext.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/af/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ar/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/az/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/bg/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/bn-BD/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/da/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/el/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/fa/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/fi-FI/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/fr-BE/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/he/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/hr/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/hu/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/hy/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/id/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/is/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ko-KR/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ku/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/lv/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ms-MY/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/mt/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/nb/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/nb-NO/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/nl/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/pt/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ro/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/sk/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/sl/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/sr/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/sr-Latn/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/sv/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/th-TH/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/uk/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/uz-Cyrl-UZ/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/uz-Latn-UZ/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/vi/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-CN/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Humanizer.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/interaktifcan/Documents/MyPrograms/burs_takip_sistemi/Burs-Takip-Sistemi/obj/Debug/net10.0/compressed/kfgas8t926-{0}-bjjruh3qpv-bjjruh3qpv.gz

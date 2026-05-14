@@ -3,10 +3,21 @@
     ViewData["Title"] = "Ana Sayfa - Aktif Burslar";
 }
 
-<div class="text-center mb-5 mt-4">
-    <h1 class="display-4 fw-bold text-primary">Geleceğine Destek Olacak Bursu Bul!</h1>
-    <p class="lead text-muted">Sistemimizdeki aktif burs ilanlarını inceleyin ve tek tıkla başvurun.</p>
-</div>
+<!-- BAŞLIK KISMI: Role Göre Değişir -->
+@if (User.Identity.IsAuthenticated && User.IsInRole("institution"))
+{
+    <div class="text-center mb-5 mt-4">
+        <h1 class="display-4 fw-bold text-dark">Sistemdeki Aktif İlanlar (Vitrin Önizlemesi)</h1>
+        <p class="lead text-muted">Diğer kurumların ve sizin yayınladığınız burslar öğrencilere bu şekilde görünmektedir.</p>
+    </div>
+}
+else
+{
+    <div class="text-center mb-5 mt-4">
+        <h1 class="display-4 fw-bold text-primary">Geleceğine Destek Olacak Bursu Bul!</h1>
+        <p class="lead text-muted">Sistemimizdeki aktif burs ilanlarını inceleyin ve tek tıkla başvurun.</p>
+    </div>
+}
 
 <div class="row">
     @if (!Model.Any())
@@ -36,8 +47,17 @@
                         </ul>
                     </div>
                     <div class="card-footer bg-white border-top-0 pb-4 text-center">
-                        <!-- Bu buton bizi birazdan yapacağımız Başvuru (Application) sayfasına atacak -->
-                        <a asp-controller="Application" asp-action="Details" asp-route-id="@burs.ProgramID" class="btn btn-outline-success w-100 fw-bold">Detayları Gör ve Başvur</a>
+                        
+                        <!-- BUTON KISMI: Kurumlar başvuru yapamaz -->
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("institution"))
+                        {
+                            <button class="btn btn-outline-secondary w-100 fw-bold" disabled>Kurumlar Başvuru Yapamaz</button>
+                        }
+                        else
+                        {
+                            <a asp-controller="Application" asp-action="Details" asp-route-id="@burs.ProgramID" class="btn btn-outline-success w-100 fw-bold">Detayları Gör ve Başvur</a>
+                        }
+
                     </div>
                 </div>
             </div>

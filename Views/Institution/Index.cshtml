@@ -1,77 +1,78 @@
-@model IEnumerable<BursTakip.Models.InstitutionProfile>
-
+@model BursTakip.Models.InstitutionProfile
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Kurum Profilim";
 }
 
-<h1>Index</h1>
+<div class="container mt-4">
+    <!-- Kurum Menüsü -->
+    <div class="mb-4">
+        <a asp-controller="Institution" asp-action="Index" class="btn btn-dark">Profil Bilgilerim</a>
+        <a asp-controller="Scholarship" asp-action="Index" class="btn btn-outline-dark">Burs İlanlarım</a>
+    </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.User)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.InstitutionName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EntityType)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdentityNumber)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TaxCertificatePath)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AuthorizedPersonName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AuthorizedPersonPhone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AuthorizedPersonEmail)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.InstitutionName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EntityType)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdentityNumber)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TaxCertificatePath)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AuthorizedPersonName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AuthorizedPersonPhone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AuthorizedPersonEmail)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.InstitutionID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.InstitutionID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.InstitutionID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-dark text-white">
+                    <h4 class="mb-0">Kurum Profil Bilgileri</h4>
+                </div>
+                <div class="card-body p-4">
+                    
+                    @if (ViewBag.Message != null)
+                    {
+                        <div class="alert alert-success fw-bold">@ViewBag.Message</div>
+                    }
+
+                    <form asp-controller="Institution" asp-action="Index" method="post">
+                        
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Kurum/Şirket Adı</label>
+                            <input type="text" class="form-control" name="InstitutionName" value="@Model.InstitutionName" required />
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Kurum Türü</label>
+                                <select class="form-select" name="EntityType" required>
+                                    <option value="">Seçiniz...</option>
+                                    <option value="Sivil Toplum Kuruluşu" selected="@(Model.EntityType == "Sivil Toplum Kuruluşu")">Sivil Toplum Kuruluşu</option>
+                                    <option value="Özel Şirket" selected="@(Model.EntityType == "Özel Şirket")">Özel Şirket</option>
+                                    <option value="Şahıs/Bireysel" selected="@(Model.EntityType == "Şahıs/Bireysel")">Şahıs/Bireysel</option>
+                                    <option value="Vakıf" selected="@(Model.EntityType == "Vakıf")">Vakıf</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Vergi / TC Kimlik No</label>
+                                <input type="text" class="form-control" name="IdentityNumber" value="@Model.IdentityNumber" required />
+                            </div>
+                        </div>
+
+                        <h5 class="mt-4 border-bottom pb-2 text-secondary">Yetkili Kişi Bilgileri</h5>
+
+                        <div class="row mt-3">
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label fw-bold">Ad Soyad</label>
+                                <input type="text" class="form-control" name="AuthorizedPersonName" value="@Model.AuthorizedPersonName" required />
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label fw-bold">Telefon</label>
+                                <input type="tel" class="form-control" name="AuthorizedPersonPhone" value="@Model.AuthorizedPersonPhone" required />
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label fw-bold">E-posta</label>
+                                <input type="email" class="form-control" name="AuthorizedPersonEmail" value="@Model.AuthorizedPersonEmail" required />
+                            </div>
+                        </div>
+
+                        <input type="hidden" name="TaxCertificatePath" value="@(Model.TaxCertificatePath ?? "yuklenmedi.pdf")" />
+
+                        <div class="text-end mt-4">
+                            <button type="submit" class="btn btn-dark px-5 fw-bold">Kaydet / Güncelle</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

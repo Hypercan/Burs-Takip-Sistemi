@@ -1,0 +1,79 @@
+@model IEnumerable<BursTakip.Models.User>
+@{
+    ViewData["Title"] = "Yönetici Paneli";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4"><span class="text-danger">👑</span> Sistem Yönetici Paneli</h2>
+
+    <div class="row mb-5">
+        <div class="col-md-3">
+            <div class="card bg-primary text-white shadow-sm mb-3">
+                <div class="card-body text-center">
+                    <h6 class="text-uppercase small">Toplam Kullanıcı</h6>
+                    <h2 class="display-4 fw-bold">@ViewBag.TotalUsers</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-success text-white shadow-sm mb-3">
+                <div class="card-body text-center">
+                    <h6 class="text-uppercase small">Aktif Burslar</h6>
+                    <h2 class="display-4 fw-bold">@ViewBag.TotalScholarships</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-info text-white shadow-sm mb-3">
+                <div class="card-body text-center">
+                    <h6 class="text-uppercase small">Yapılan Başvurular</h6>
+                    <h2 class="display-4 fw-bold">@ViewBag.TotalApplications</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card bg-warning text-dark shadow-sm mb-3">
+                <div class="card-body text-center">
+                    <h6 class="text-uppercase small">Kayıtlı Kurumlar</h6>
+                    <h2 class="display-4 fw-bold">@ViewBag.TotalInstitutions</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">Son Kayıt Olan Kullanıcılar</h5>
+            <button class="btn btn-sm btn-outline-light">Tümünü Gör</button>
+        </div>
+        <div class="card-body p-0">
+            <table class="table table-hover mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th class="ps-3">ID</th>
+                        <th>E-posta</th>
+                        <th>Rol</th>
+                        <th>Durum</th>
+                        <th>Kayıt Tarihi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model)
+                    {
+                        <tr>
+                            <td class="ps-3">@user.UserID</td>
+                            <td>@user.Email</td>
+                            <td>
+                                @if(user.Role == "admin") { <span class="badge bg-danger">Yönetici</span> }
+                                else if(user.Role == "institution") { <span class="badge bg-dark">Kurum</span> }
+                                else { <span class="badge bg-primary">Öğrenci</span> }
+                            </td>
+                            <td><span class="text-success">●</span> @user.ApprovalStatus</td>
+                            <td>@user.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

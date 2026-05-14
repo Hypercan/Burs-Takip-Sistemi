@@ -1,102 +1,76 @@
 @model BursTakip.Models.ScholarshipProgram
-
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Yeni Burs Ekle";
 }
 
-<h1>Create</h1>
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">Yeni Burs İlanı Oluştur</h4>
+                </div>
+                <div class="card-body p-4">
+                    
+                    <form asp-action="Create" method="post">
+                        
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">Burs Programının Adı</label>
+                            <input type="text" class="form-control" name="ProgramName" placeholder="Örn: 2026 Üstün Başarı Bursu" required />
+                        </div>
 
-<h4>ScholarshipProgram</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="InstitutionID" class="control-label"></label>
-                <select asp-for="InstitutionID" class ="form-control" asp-items="ViewBag.InstitutionID"></select>
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label fw-bold">Aylık Miktar (₺)</label>
+                                <input type="number" step="0.01" class="form-control" name="Amount" required />
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label fw-bold">Süre (Ay)</label>
+                                <input type="number" class="form-control" name="DurationMonths" required />
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label fw-bold">Kontenjan</label>
+                                <input type="number" class="form-control" name="Quota" placeholder="Örn: 50" required />
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Bölüm Kriteri</label>
+                                <input type="text" class="form-control" name="DepartmentCriteria" placeholder="Örn: Sadece Mühendislik veya Tümü" required />
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Cinsiyet Kriteri</label>
+                                <select class="form-select" name="GenderCriteria" required>
+                                    <option value="Farketmez">Farketmez</option>
+                                    <option value="Sadece Kadın">Sadece Kadın Öğrenciler</option>
+                                    <option value="Sadece Erkek">Sadece Erkek Öğrenciler</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Minimum Not Ortalaması (GPA)</label>
+                                <input type="number" step="0.01" max="4.00" class="form-control" name="MinGPA" placeholder="Örn: 2.50" />
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Son Başvuru Tarihi</label>
+                                <input type="date" class="form-control" name="ApplicationDeadline" required />
+                            </div>
+                        </div>
+
+                        <!-- Ceyda'nın formunda olan ama arka planda otomatik atayacağımız için gizlediğimiz veya kullanmadığımız gereksiz alanları kaldırdık -->
+                        <input type="hidden" name="SubmissionDeadline" value="@DateTime.Now.AddMonths(1).ToString("yyyy-MM-dd")" />
+
+                        <div class="d-flex justify-content-between mt-4">
+                            <a asp-action="Index" class="btn btn-outline-secondary">İptal Et</a>
+                            <button type="submit" class="btn btn-success px-5 fw-bold">İlanı Yayınla</button>
+                        </div>
+                    </form>
+
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="ProgramName" class="control-label"></label>
-                <input asp-for="ProgramName" class="form-control" />
-                <span asp-validation-for="ProgramName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Amount" class="control-label"></label>
-                <input asp-for="Amount" class="form-control" />
-                <span asp-validation-for="Amount" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DurationMonths" class="control-label"></label>
-                <input asp-for="DurationMonths" class="form-control" />
-                <span asp-validation-for="DurationMonths" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Quota" class="control-label"></label>
-                <input asp-for="Quota" class="form-control" />
-                <span asp-validation-for="Quota" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="GenderCriteria" class="control-label"></label>
-                <input asp-for="GenderCriteria" class="form-control" />
-                <span asp-validation-for="GenderCriteria" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DepartmentCriteria" class="control-label"></label>
-                <input asp-for="DepartmentCriteria" class="form-control" />
-                <span asp-validation-for="DepartmentCriteria" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="MinGPA" class="control-label"></label>
-                <input asp-for="MinGPA" class="form-control" />
-                <span asp-validation-for="MinGPA" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" />
-                <span asp-validation-for="Status" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ApplicationDeadline" class="control-label"></label>
-                <input asp-for="ApplicationDeadline" class="form-control" />
-                <span asp-validation-for="ApplicationDeadline" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="SubmissionDeadline" class="control-label"></label>
-                <input asp-for="SubmissionDeadline" class="form-control" />
-                <span asp-validation-for="SubmissionDeadline" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="AdminNote" class="control-label"></label>
-                <input asp-for="AdminNote" class="form-control" />
-                <span asp-validation-for="AdminNote" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CreatedAt" class="control-label"></label>
-                <input asp-for="CreatedAt" class="form-control" />
-                <span asp-validation-for="CreatedAt" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="SubmittedAt" class="control-label"></label>
-                <input asp-for="SubmittedAt" class="form-control" />
-                <span asp-validation-for="SubmittedAt" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ApprovedAt" class="control-label"></label>
-                <input asp-for="ApprovedAt" class="form-control" />
-                <span asp-validation-for="ApprovedAt" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}

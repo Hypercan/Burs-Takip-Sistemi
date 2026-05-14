@@ -1,15 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
-using BursTakip.Data;
 using BursTakip.Models;
+using BursTakip.Data;
+using System.Security.Claims;
 
-namespace Burs_Takip_Sistemi.Controllers
+namespace BursTakip.Controllers
 {
+    // 1. GÜVENLİK: Sadece Kurumlar Girebilir
+    [Authorize(Roles = "institution")]
     public class ScholarshipController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -19,146 +18,75 @@ namespace Burs_Takip_Sistemi.Controllers
             _context = context;
         }
 
-        // GET: Scholarship
-        public async Task<IActionResult> Index()
+        // Yardımcı Metot: Giriş yapan kurumun ID'sini bulur
+        private int GetCurrentInstitutionId()
         {
-            var applicationDbContext = _context.ScholarshipPrograms.Include(s => s.Institution);
-            return View(await applicationDbContext.ToListAsync());
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var institution = _context.InstitutionProfiles.FirstOrDefault(i => i.UserID == userId);
+            return institution?.InstitutionID ?? 0;
         }
 
-        // GET: Scholarship/Details/5
-        public async Task<IActionResult> Details(int? id)
+        // 1. SADECE KENDİ BURS İLANLARINI LİSTELE
+        public IActionResult Index()
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            var instId = GetCurrentInstitutionId();
+            if (instId == 0) return RedirectToAction("Index", "Institution"); // Profil yoksa profile yolla
 
-            var scholarshipProgram = await _context.ScholarshipPrograms
-                .Include(s => s.Institution)
-                .FirstOrDefaultAsync(m => m.ProgramID == id);
-            if (scholarshipProgram == null)
-            {
-                return NotFound();
-            }
+            var myScholarships = _context.ScholarshipPrograms
+                .Where(s => s.InstitutionID == instId)
+                .OrderByDescending(s => s.CreatedAt)
+                .ToList();
 
-            return View(scholarshipProgram);
+            return View(myScholarships);
         }
 
-        // GET: Scholarship/Create
+        // 2. YENİ BURS İLANI OLUŞTURMA SAYFASI GETİR
         public IActionResult Create()
         {
-            ViewData["InstitutionID"] = new SelectList(_context.InstitutionProfiles, "InstitutionID", "InstitutionName");
+            var instId = GetCurrentInstitutionId();
+            if (instId == 0)
+            {
+                TempData["Error"] = "Burs ilanı açabilmek için önce kurum profilinizi doldurmalısınız.";
+                return RedirectToAction("Index", "Institution");
+            }
             return View();
         }
 
-        // POST: Scholarship/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // 3. YENİ BURS İLANINI KAYDET
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProgramID,InstitutionID,ProgramName,Amount,DurationMonths,Quota,GenderCriteria,DepartmentCriteria,MinGPA,Status,ApplicationDeadline,SubmissionDeadline,AdminNote,CreatedAt,SubmittedAt,ApprovedAt")] ScholarshipProgram scholarshipProgram)
+        public IActionResult Create(ScholarshipProgram model)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(scholarshipProgram);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["InstitutionID"] = new SelectList(_context.InstitutionProfiles, "InstitutionID", "InstitutionName", scholarshipProgram.InstitutionID);
-            return View(scholarshipProgram);
-        }
+            var instId = GetCurrentInstitutionId();
+            if (instId == 0) return RedirectToAction("Index", "Institution");
 
-        // GET: Scholarship/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            // Formdan gelmeyen verileri biz arka planda otomatik dolduruyoruz:
+            model.InstitutionID = instId;
+            model.CreatedAt = DateTime.Now;
+            model.Status = "Aktif"; // Varsayılan olarak aktif başlasın
+            model.AdminNote = "Yeni oluşturuldu.";
 
-            var scholarshipProgram = await _context.ScholarshipPrograms.FindAsync(id);
-            if (scholarshipProgram == null)
-            {
-                return NotFound();
-            }
-            ViewData["InstitutionID"] = new SelectList(_context.InstitutionProfiles, "InstitutionID", "InstitutionName", scholarshipProgram.InstitutionID);
-            return View(scholarshipProgram);
-        }
+            _context.ScholarshipPrograms.Add(model);
+            _context.SaveChanges();
 
-        // POST: Scholarship/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProgramID,InstitutionID,ProgramName,Amount,DurationMonths,Quota,GenderCriteria,DepartmentCriteria,MinGPA,Status,ApplicationDeadline,SubmissionDeadline,AdminNote,CreatedAt,SubmittedAt,ApprovedAt")] ScholarshipProgram scholarshipProgram)
-        {
-            if (id != scholarshipProgram.ProgramID)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(scholarshipProgram);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ScholarshipProgramExists(scholarshipProgram.ProgramID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["InstitutionID"] = new SelectList(_context.InstitutionProfiles, "InstitutionID", "InstitutionName", scholarshipProgram.InstitutionID);
-            return View(scholarshipProgram);
-        }
-
-        // GET: Scholarship/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var scholarshipProgram = await _context.ScholarshipPrograms
-                .Include(s => s.Institution)
-                .FirstOrDefaultAsync(m => m.ProgramID == id);
-            if (scholarshipProgram == null)
-            {
-                return NotFound();
-            }
-
-            return View(scholarshipProgram);
-        }
-
-        // POST: Scholarship/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var scholarshipProgram = await _context.ScholarshipPrograms.FindAsync(id);
-            if (scholarshipProgram != null)
-            {
-                _context.ScholarshipPrograms.Remove(scholarshipProgram);
-            }
-
-            await _context.SaveChangesAsync();
+            TempData["Success"] = "Yeni burs ilanınız başarıyla yayınlandı!";
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ScholarshipProgramExists(int id)
+        // 4. BURS İLANINI SİL
+        [HttpPost]
+        public IActionResult Delete(int id)
         {
-            return _context.ScholarshipPrograms.Any(e => e.ProgramID == id);
+            var instId = GetCurrentInstitutionId();
+            var scholarship = _context.ScholarshipPrograms.FirstOrDefault(s => s.ProgramID == id && s.InstitutionID == instId);
+
+            if (scholarship != null)
+            {
+                _context.ScholarshipPrograms.Remove(scholarship);
+                _context.SaveChanges();
+                TempData["Success"] = "Burs ilanı başarıyla silindi.";
+            }
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

@@ -41,6 +41,12 @@
                 <a class="nav-link text-dark" asp-controller="Institution" asp-action="Index">Kurum Panelim</a>
             </li>
         }
+        @if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
+        {
+            <li class="nav-item">
+                <a class="nav-link fw-bold text-danger" asp-controller="Admin" asp-action="Index">👑 Admin Paneli</a>
+            </li>
+        }
     </ul>
 
     <!-- Sağ Taraf: Kullanıcı Giriş Kontrolü -->

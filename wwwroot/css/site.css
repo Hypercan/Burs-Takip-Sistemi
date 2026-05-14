@@ -1,31 +1,129 @@
-html {
-  font-size: 14px;
-}
+/* Google Fonts'tan 'Inter' fontunu projeye dahil ediyoruz */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* GENEL GÖRÜNÜM */
 body {
-  margin-bottom: 60px;
+    font-family: 'Inter', sans-serif !important;
+    background-color: #f8fafc; /* Görseldeki gibi açık, ferah gri arkaplan */
+    color: #1e293b; /* Yumuşak koyu gri metin rengi */
+    margin-bottom: 60px;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+/* ÜST MENÜ (NAVBAR) - Daha temiz, beyaz ve çizgisiz */
+.navbar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e2e8f0;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    padding: 1rem 2rem;
+}
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #0f172a !important;
+}
+.nav-link {
+    font-weight: 500;
+    color: #64748b !important;
+    transition: color 0.2s;
+}
+.nav-link:hover {
+    color: #0f172a !important;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+/* KART TASARIMLARI (Görseldeki beyaz, keskin hatlı kutular) */
+.card {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+    background-color: #ffffff;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+.card-header {
+    background-color: transparent !important;
+    border-bottom: 1px solid #e2e8f0;
+    color: #0f172a !important;
+    font-weight: 600;
+    padding: 1.25rem 1.5rem;
+}
+.card-footer {
+    background-color: transparent !important;
+    border-top: 1px solid #e2e8f0;
+}
+
+/* BUTONLAR (Görseldeki "Create New Program" butonunun Koyu Lacivert tonu) */
+.btn {
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s;
+}
+.btn-primary, .btn-dark, .btn-success {
+    background-color: #1c2434 !important; /* Görseldeki ana renk */
+    border-color: #1c2434 !important;
+    color: #ffffff !important;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.btn-primary:hover, .btn-dark:hover, .btn-success:hover {
+    background-color: #2c3545 !important;
+    transform: translateY(-1px);
+}
+.btn-outline-primary, .btn-outline-dark, .btn-outline-success {
+    color: #1c2434 !important;
+    border-color: #e2e8f0 !important;
+    background-color: transparent;
+}
+.btn-outline-primary:hover, .btn-outline-dark:hover, .btn-outline-success:hover {
+    background-color: #f1f5f9 !important;
+    border-color: #cbd5e1 !important;
+}
+
+/* TABLOLAR (Mevcut Programlar kısmı gibi) */
+.table {
+    color: #1e293b;
+    vertical-align: middle;
+}
+.table thead th {
+    border-bottom: 2px solid #e2e8f0;
+    color: #64748b;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    padding-bottom: 1rem;
+}
+.table tbody td {
+    border-bottom: 1px solid #e2e8f0;
+    padding: 1rem 0.5rem;
+}
+
+/* ROZETLER (Aktif, Taslak, Onay Bekliyor gibi tag'ler) */
+.badge {
+    padding: 0.35em 0.8em;
+    font-weight: 500;
+    border-radius: 9999px; /* Tam yuvarlak rozetler */
+    font-size: 0.75rem;
+}
+.bg-success { background-color: #dcfce7 !important; color: #166534 !important; }
+.bg-warning { background-color: #fef08a !important; color: #854d0e !important; }
+.bg-danger { background-color: #fee2e2 !important; color: #991b1b !important; }
+.bg-primary { background-color: #e0e7ff !important; color: #3730a3 !important; }
+
+/* FORMLAR VE INPUTLAR */
+.form-control, .form-select {
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 0.5rem 0.75rem;
+    color: #0f172a;
+}
+.form-control:focus, .form-select:focus {
+    border-color: #1c2434;
+    box-shadow: 0 0 0 2px rgba(28, 36, 52, 0.2);
+}
+.form-label {
+    font-weight: 500;
+    color: #475569;
+    font-size: 0.875rem;
 }

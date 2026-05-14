@@ -1,119 +1,58 @@
 @model IEnumerable<BursTakip.Models.ScholarshipProgram>
-
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Burs İlanlarım";
 }
 
-<h1>Index</h1>
+<div class="container mt-4">
+    <!-- Kurum Menüsü -->
+    <div class="mb-4">
+        <a asp-controller="Institution" asp-action="Index" class="btn btn-outline-dark">Profil Bilgilerim</a>
+        <a asp-controller="Scholarship" asp-action="Index" class="btn btn-dark">Burs İlanlarım</a>
+    </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Institution)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ProgramName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Amount)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DurationMonths)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Quota)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.GenderCriteria)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DepartmentCriteria)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MinGPA)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ApplicationDeadline)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SubmissionDeadline)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AdminNote)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedAt)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SubmittedAt)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ApprovedAt)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Institution.InstitutionName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ProgramName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Amount)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DurationMonths)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Quota)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.GenderCriteria)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DepartmentCriteria)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MinGPA)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ApplicationDeadline)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SubmissionDeadline)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AdminNote)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedAt)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SubmittedAt)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ApprovedAt)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ProgramID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ProgramID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ProgramID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="text-secondary mb-0">Yayınladığım Burs İlanları</h3>
+        <a asp-action="Create" class="btn btn-success fw-bold">+ Yeni Burs İlanı Ekle</a>
+    </div>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success fw-bold">@TempData["Success"]</div>
+    }
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning">Henüz hiçbir burs ilanı oluşturmadınız. Hemen yeni bir ilan ekleyerek öğrencilere destek olmaya başlayabilirsiniz.</div>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm border-0 h-100">
+                        <div class="card-header bg-white pt-3 pb-0 border-0 d-flex justify-content-between">
+                            <h5 class="text-primary fw-bold">@item.ProgramName</h5>
+                            <span class="badge bg-success">@item.Status</span>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li><strong>Miktar:</strong> @item.Amount.ToString("N2") ₺ / Ay</li>
+                                <li><strong>Süre:</strong> @item.DurationMonths Ay</li>
+                                <li><strong>Son Başvuru:</strong> <span class="text-danger fw-bold">@item.ApplicationDeadline.ToString("dd.MM.yyyy")</span></li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-white border-top-0 d-flex justify-content-between">
+                            <button class="btn btn-sm btn-outline-primary">Başvuruları Gör (Yakında)</button>
+                            
+                            <form asp-action="Delete" method="post" onsubmit="return confirm('Bu ilanı silmek istediğinize emin misiniz? (Bağlı başvurular da silinir)');">
+                                <input type="hidden" name="id" value="@item.ProgramID" />
+                                <button type="submit" class="btn btn-sm btn-danger">Sil</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

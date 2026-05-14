@@ -1,15 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using BursTakip.Data;
+using Microsoft.AspNetCore.Authorization;
 using BursTakip.Models;
+using BursTakip.Data;
+using System.Security.Claims;
 
-namespace Burs_Takip_Sistemi.Controllers
+namespace BursTakip.Controllers
 {
+    [Authorize(Roles = "institution")] // Sadece kurumlar girebilir
     public class InstitutionController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -19,146 +16,48 @@ namespace Burs_Takip_Sistemi.Controllers
             _context = context;
         }
 
-        // GET: Institution
-        public async Task<IActionResult> Index()
+        // 1. KURUM PROFİLİNİ GETİR
+        [HttpGet]
+        public IActionResult Index()
         {
-            var applicationDbContext = _context.InstitutionProfiles.Include(i => i.User);
-            return View(await applicationDbContext.ToListAsync());
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var profile = _context.InstitutionProfiles.FirstOrDefault(i => i.UserID == userId);
+
+            // Profil varsa göster, yoksa boş bir profil formu gönder
+            return View(profile ?? new InstitutionProfile());
         }
 
-        // GET: Institution/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var institutionProfile = await _context.InstitutionProfiles
-                .Include(i => i.User)
-                .FirstOrDefaultAsync(m => m.InstitutionID == id);
-            if (institutionProfile == null)
-            {
-                return NotFound();
-            }
-
-            return View(institutionProfile);
-        }
-
-        // GET: Institution/Create
-        public IActionResult Create()
-        {
-            ViewData["UserID"] = new SelectList(_context.Users, "UserID", "Email");
-            return View();
-        }
-
-        // POST: Institution/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // 2. KURUM PROFİLİNİ KAYDET VEYA GÜNCELLE
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("InstitutionID,UserID,InstitutionName,EntityType,IdentityNumber,TaxCertificatePath,AuthorizedPersonName,AuthorizedPersonPhone,AuthorizedPersonEmail")] InstitutionProfile institutionProfile)
+        public IActionResult Index(InstitutionProfile model)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(institutionProfile);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["UserID"] = new SelectList(_context.Users, "UserID", "Email", institutionProfile.UserID);
-            return View(institutionProfile);
-        }
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var existingProfile = _context.InstitutionProfiles.FirstOrDefault(i => i.UserID == userId);
 
-        // GET: Institution/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
+            if (existingProfile == null)
             {
-                return NotFound();
+                // İlk defa kaydediyorsa
+                model.UserID = userId;
+                _context.InstitutionProfiles.Add(model);
+                ViewBag.Message = "Kurum profiliniz başarıyla oluşturuldu!";
             }
-
-            var institutionProfile = await _context.InstitutionProfiles.FindAsync(id);
-            if (institutionProfile == null)
+            else
             {
-                return NotFound();
-            }
-            ViewData["UserID"] = new SelectList(_context.Users, "UserID", "Email", institutionProfile.UserID);
-            return View(institutionProfile);
-        }
-
-        // POST: Institution/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("InstitutionID,UserID,InstitutionName,EntityType,IdentityNumber,TaxCertificatePath,AuthorizedPersonName,AuthorizedPersonPhone,AuthorizedPersonEmail")] InstitutionProfile institutionProfile)
-        {
-            if (id != institutionProfile.InstitutionID)
-            {
-                return NotFound();
+                // Mevcut profili güncelliyorsa
+                existingProfile.InstitutionName = model.InstitutionName;
+                existingProfile.EntityType = model.EntityType;
+                existingProfile.IdentityNumber = model.IdentityNumber;
+                existingProfile.AuthorizedPersonName = model.AuthorizedPersonName;
+                existingProfile.AuthorizedPersonPhone = model.AuthorizedPersonPhone;
+                existingProfile.AuthorizedPersonEmail = model.AuthorizedPersonEmail;
+                // TaxCertificatePath (Vergi Levhası) dosya yükleme işlemi sonraya bırakıldı.
+                
+                _context.InstitutionProfiles.Update(existingProfile);
+                ViewBag.Message = "Kurum profiliniz başarıyla güncellendi!";
             }
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(institutionProfile);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!InstitutionProfileExists(institutionProfile.InstitutionID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["UserID"] = new SelectList(_context.Users, "UserID", "Email", institutionProfile.UserID);
-            return View(institutionProfile);
-        }
-
-        // GET: Institution/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var institutionProfile = await _context.InstitutionProfiles
-                .Include(i => i.User)
-                .FirstOrDefaultAsync(m => m.InstitutionID == id);
-            if (institutionProfile == null)
-            {
-                return NotFound();
-            }
-
-            return View(institutionProfile);
-        }
-
-        // POST: Institution/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var institutionProfile = await _context.InstitutionProfiles.FindAsync(id);
-            if (institutionProfile != null)
-            {
-                _context.InstitutionProfiles.Remove(institutionProfile);
-            }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool InstitutionProfileExists(int id)
-        {
-            return _context.InstitutionProfiles.Any(e => e.InstitutionID == id);
+            _context.SaveChanges();
+            return View(existingProfile ?? model);
         }
     }
 }
