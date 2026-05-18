@@ -37,11 +37,23 @@
                                 <td>@app.Program.Institution.InstitutionName</td>
                                 <td>@app.AppliedAt.ToString("dd.MM.yyyy HH:mm")</td>
                                 <td>
-                                    <!-- Duruma göre renkli etiketler -->
-                                    @if(app.Status == "Beklemede") { <span class="badge bg-warning text-dark">Beklemede</span> }
-                                    else if(app.Status == "Onaylandı") { <span class="badge bg-success">Onaylandı</span> }
-                                    else { <span class="badge bg-danger">Reddedildi</span> }
-                                </td>
+    @if (app.Status == "Beklemede" && app.Program.ApplicationDeadline < DateTime.Now)
+    {
+        <span class="badge bg-secondary text-white">Süresi Doldu / Kapandı</span>
+    }
+    else if(app.Status == "Beklemede") 
+    { 
+        <span class="badge bg-warning text-dark">Beklemede</span> 
+    }
+    else if(app.Status == "Onaylandı") 
+    { 
+        <span class="badge bg-success">Onaylandı</span> 
+    }
+    else 
+    { 
+        <span class="badge bg-danger">Reddedildi</span> 
+    }
+</td>
                                 <td><small class="text-muted">@app.InstitutionNote</small></td>
                             </tr>
                         }
