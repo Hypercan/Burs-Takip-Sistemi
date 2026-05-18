@@ -42,7 +42,13 @@ namespace BursTakip.Controllers
                 TempData["Error"] = "Başvuru yapabilmek için önce profil bilgilerinizi doldurmalısınız.";
                 return RedirectToAction("Index", "Student");
             }
-
+            // EKLENEN KISIM: Öğrenci belge yüklemiş mi kontrolü
+            var hasDocuments = _context.Documents.Any(d => d.StudentID == student.StudentID);
+            if (!hasDocuments)
+            {
+                TempData["Error"] = "Başvuru yapabilmek için önce 'Öğrenci Panelim -> Belgelerim' kısmından kurumların talep ettiği belgeleri (Transkript, Kimlik vb.) yüklemelisiniz.";
+                return RedirectToAction("Details", new { id = programId });
+            }
             // Öğrenci bu bursa daha önce başvurmuş mu kontrolü
             var hasApplied = _context.Applications.Any(a => a.ProgramID == programId && a.StudentID == student.StudentID);
             if (hasApplied)

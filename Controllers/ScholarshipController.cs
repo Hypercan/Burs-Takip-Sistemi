@@ -72,7 +72,7 @@ namespace BursTakip.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // 4. BURS İLANINI SİL
+        // 4. BURS İLANINI SİL (Güncellendi)
         [HttpPost]
         public IActionResult Delete(int id)
         {
@@ -81,9 +81,17 @@ namespace BursTakip.Controllers
 
             if (scholarship != null)
             {
+                // Önce bu bursa yapılmış tüm başvuruları bul ve sil (Veritabanı ilişkisel hatasını önlemek için)
+                var relatedApplications = _context.Applications.Where(a => a.ProgramID == id).ToList();
+                if (relatedApplications.Any())
+                {
+                    _context.Applications.RemoveRange(relatedApplications);
+                }
+
+                // Bağlı başvurular silindikten sonra bursu güvenle silebiliriz
                 _context.ScholarshipPrograms.Remove(scholarship);
                 _context.SaveChanges();
-                TempData["Success"] = "Burs ilanı başarıyla silindi.";
+                TempData["Success"] = "Burs ilanı ve ona bağlı tüm başvurular başarıyla silindi.";
             }
 
             return RedirectToAction(nameof(Index));
@@ -103,7 +111,8 @@ namespace BursTakip.Controllers
             // Bu bursa yapılmış başvuruları ve başvuran öğrencilerin profillerini çekiyoruz
             var applications = _context.Applications
                 .Include(a => a.Student)
-                .Where(a => a.ProgramID == id)
+                // Sadece statüsü "Beklemede" olan başvuruları getiriyoruz
+                .Where(a => a.ProgramID == id && a.Status == "Beklemede")
                 .OrderByDescending(a => a.AppliedAt)
                 .ToList();
 
