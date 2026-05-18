@@ -88,5 +88,56 @@ namespace BursTakip.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        // 5. BİR BURSUN BAŞVURULARINI LİSTELE
+        public IActionResult Applications(int id)
+        {
+            var instId = GetCurrentInstitutionId();
+            
+            // Önce bursun bu kuruma ait olduğundan emin olalım (güvenlik)
+            var program = _context.ScholarshipPrograms.FirstOrDefault(p => p.ProgramID == id && p.InstitutionID == instId);
+            if (program == null) return NotFound();
+
+            ViewBag.ProgramName = program.ProgramName;
+
+            // Bu bursa yapılmış başvuruları ve başvuran öğrencilerin profillerini çekiyoruz
+            var applications = _context.Applications
+                .Include(a => a.Student)
+                .Where(a => a.ProgramID == id)
+                .OrderByDescending(a => a.AppliedAt)
+                .ToList();
+
+            // Öğrencilerin sisteme yüklediği belgeleri de güvenli yoldan çekip ViewBag ile ekrana yolluyoruz
+            var studentIds = applications.Select(a => a.StudentID).ToList();
+            ViewBag.StudentDocuments = _context.Documents.Where(d => studentIds.Contains(d.StudentID)).ToList();
+
+            return View(applications);
+        }
+
+        // 6. BAŞVURU ONAY / RED İŞLEMİ
+        [HttpPost]
+        public IActionResult UpdateStatus(int applicationId, string status, string institutionNote)
+        {
+            var instId = GetCurrentInstitutionId();
+            
+            // Başvuruyu bulurken, bursun bizim kuruma ait olduğunu da teyit ediyoruz
+            var application = _context.Applications
+                .Include(a => a.Program)
+                .FirstOrDefault(a => a.ApplicationID == applicationId && a.Program.InstitutionID == instId);
+
+            if (application != null)
+            {
+                application.Status = status; // "Onaylandı" veya "Reddedildi"
+                application.InstitutionNote = string.IsNullOrWhiteSpace(institutionNote) ? "Değerlendirildi." : institutionNote;
+                application.UpdatedAt = DateTime.Now;
+                
+                _context.SaveChanges();
+                TempData["Success"] = "Öğrencinin başvuru durumu başarıyla güncellendi.";
+                
+                return RedirectToAction("Applications", new { id = application.ProgramID });
+            }
+
+            return NotFound();
+        }
     }
 }

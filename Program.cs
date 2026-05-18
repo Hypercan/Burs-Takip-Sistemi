@@ -26,6 +26,15 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 // --- MOTOR BURADA KİLİTLENİR ---
 var app = builder.Build();
 
+// --- EKLENEN KISIM: Nokta/Virgül karmaşasını çözen evrensel sayı formatı ayarı ---
+var cultureInfo = new System.Globalization.CultureInfo("en-US");
+app.UseRequestLocalization(new RequestLocalizationOptions
+{
+    DefaultRequestCulture = new Microsoft.AspNetCore.Localization.RequestCulture(cultureInfo),
+    SupportedCultures = new[] { cultureInfo },
+    SupportedUICultures = new[] { cultureInfo }
+});
+// ---------------------------------------------------------------------------------
 // 2. MIDDLEWARE (ARAYAZILIM) AYARLARI BURAYA EKLENİR (Build'den SONRA)
 if (!app.Environment.IsDevelopment())
 {

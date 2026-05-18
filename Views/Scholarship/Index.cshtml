@@ -43,7 +43,7 @@
                             </ul>
                         </div>
                         <div class="card-footer bg-white border-top-0 d-flex justify-content-between">
-                            <button class="btn btn-sm btn-outline-primary">Başvuruları Gör (Yakında)</button>
+                            <a asp-action="Applications" asp-route-id="@item.ProgramID" class="btn btn-sm btn-outline-primary fw-bold">Başvuruları Değerlendir</a>
                             
                             <form asp-action="Delete" method="post" onsubmit="return confirm('Bu ilanı silmek istediğinize emin misiniz? (Bağlı başvurular da silinir)');">
                                 <input type="hidden" name="id" value="@item.ProgramID" />

@@ -1,0 +1,90 @@
+@model IEnumerable<BursTakip.Models.Application>
+@{
+    ViewData["Title"] = "Başvuru Değerlendirme";
+    // Controller'dan gelen belgeleri listeye dönüştürüyoruz
+    var documents = ViewBag.StudentDocuments as List<BursTakip.Models.Document> ?? new List<BursTakip.Models.Document>();
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <a asp-action="Index" class="text-decoration-none text-muted fw-bold">← İlanlarıma Dön</a>
+            <h3 class="text-dark mt-2 fw-bold">@ViewBag.ProgramName <span class="text-secondary fw-normal">| Başvurular</span></h3>
+        </div>
+    </div>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success fw-bold shadow-sm">@TempData["Success"]</div>
+    }
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning shadow-sm">Bu burs programına henüz başvuru yapılmamıştır.</div>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var app in Model)
+            {
+                <div class="col-12 mb-4">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-header bg-white pt-4 pb-3 border-bottom d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0 fw-bold text-primary">@app.Student.FirstName @app.Student.LastName</h5>
+                            
+                            @if(app.Status == "Beklemede") { <span class="badge bg-warning">Beklemede</span> }
+                            else if(app.Status == "Onaylandı") { <span class="badge bg-success">Onaylandı</span> }
+                            else { <span class="badge bg-danger">Reddedildi</span> }
+                        </div>
+                        
+                        <div class="card-body bg-light row m-0 p-4">
+                            <div class="col-md-6 border-end pe-4">
+                                <h6 class="text-muted fw-bold mb-3 text-uppercase" style="font-size: 0.8rem;">Öğrenci Profili</h6>
+                                <p class="mb-1"><strong>Okul:</strong> @app.Student.School</p>
+                                <p class="mb-1"><strong>Bölüm:</strong> @app.Student.Department</p>
+                                <p class="mb-1"><strong>İletişim:</strong> @app.Student.Phone</p>
+                                <p class="mb-1"><strong>Başvuru Tarihi:</strong> @app.AppliedAt.ToString("dd.MM.yyyy HH:mm")</p>
+                                
+                                <h6 class="text-muted fw-bold mt-4 mb-2 text-uppercase" style="font-size: 0.8rem;">Yüklediği Belgeler</h6>
+                                @{
+                                    var studentDocs = documents.Where(d => d.StudentID == app.StudentID).ToList();
+                                    if (!studentDocs.Any())
+                                    {
+                                        <span class="text-danger small">Öğrenci sisteme henüz belge yüklememiş.</span>
+                                    }
+                                    else
+                                    {
+                                        <div class="d-flex gap-2 flex-wrap">
+                                            @foreach (var doc in studentDocs)
+                                            {
+                                                <a href="@doc.FilePath" target="_blank" class="btn btn-sm btn-outline-dark">📄 @doc.DocumentType</a>
+                                            }
+                                        </div>
+                                    }
+                                }
+                            </div>
+
+                            <div class="col-md-6 ps-4">
+                                <h6 class="text-muted fw-bold mb-3 text-uppercase" style="font-size: 0.8rem;">Karar Mekanizması</h6>
+                                
+                                <form asp-action="UpdateStatus" method="post">
+                                    <input type="hidden" name="applicationId" value="@app.ApplicationID" />
+                                    
+                                    <div class="mb-3">
+                                        <label class="form-label small fw-bold">Öğrenciye İletilecek Not (Zorunlu Değil)</label>
+                                        <textarea class="form-control" name="institutionNote" rows="3" placeholder="Örn: Transkriptiniz yetersiz olduğu için reddedildi. / Tebrikler!">@app.InstitutionNote</textarea>
+                                    </div>
+                                    
+                                    <div class="d-flex gap-2">
+                                        <button type="submit" name="status" value="Onaylandı" class="btn btn-success w-50 fw-bold">✓ Onayla</button>
+                                        <button type="submit" name="status" value="Reddedildi" class="btn btn-danger w-50 fw-bold">✕ Reddet</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
