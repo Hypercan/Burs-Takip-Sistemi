@@ -1,16 +1,18 @@
 @{
-    ViewData["Title"] = "Kayıt Ol";
+    ViewData["Title"] = "BursTar - Kayıt Ol";
 }
 
 <div class="row justify-content-center mt-5">
     <div class="col-md-5">
         <div class="card shadow-lg border-0 rounded-lg mt-5">
-            <div class="card-header bg-primary text-white text-center py-3">
-                <h3 class="font-weight-light my-2">Sisteme Kayıt Ol</h3>
+            <div class="card-header bg-primary text-white text-center py-4">
+                <div class="mb-2">
+                    <img src="~/images/logo.png.png" alt="BursTar Logo" style="height: 60px; object-fit: contain;" />
+                </div>
+                <h3 class="font-weight-light my-2">BursTar Kayıt Paneli</h3>
             </div>
             <div class="card-body p-4">
                 
-                <!-- Eğer C# tarafından bir hata mesajı gelirse burada kırmızı kutu içinde göstereceğiz -->
                 @if (ViewBag.Error != null)
                 {
                     <div class="alert alert-danger text-center">@ViewBag.Error</div>
@@ -42,7 +44,7 @@
                 </form>
             </div>
             <div class="card-footer text-center py-3">
-                <div class="small"><a href="/Auth/Login">Zaten bir hesabınız var mı? Giriş Yapın.</a></div>
+                <div class="small"><a href="/Auth/Login" class="text-primary">Zaten bir hesabınız var mı? Giriş Yapın.</a></div>
             </div>
         </div>
     </div>
