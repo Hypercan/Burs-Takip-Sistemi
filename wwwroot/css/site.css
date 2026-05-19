@@ -17,9 +17,20 @@ body {
     padding: 1rem 2rem;
 }
 .navbar-brand {
-    font-weight: 700;
-    letter-spacing: -0.5px;
-    color: #0f172a !important;
+    padding: 0;
+    margin-right: 1rem;
+}
+.site-logo {
+    display: block;
+    width: auto;
+    object-fit: contain;
+}
+.site-logo--navbar {
+    height: 52px;
+}
+.site-logo--auth {
+    height: 140px;
+    margin: 0 auto;
 }
 .nav-link {
     font-weight: 500;
