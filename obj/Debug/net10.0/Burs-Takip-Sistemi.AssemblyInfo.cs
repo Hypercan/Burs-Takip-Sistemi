@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Burs-Takip-Sistemi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c54a163574e6e64a4a52fcf9debc864025c7cff2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e218a6d70a77bec4a9a20da0e082b264b575119")]
 [assembly: System.Reflection.AssemblyProductAttribute("Burs-Takip-Sistemi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Burs-Takip-Sistemi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
