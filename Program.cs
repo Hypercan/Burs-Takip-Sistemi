@@ -26,6 +26,13 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 // --- MOTOR BURADA KİLİTLENİR ---
 var app = builder.Build();
 
+if (app.Environment.IsDevelopment())
+{
+    using var scope = app.Services.CreateScope();
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    DemoDataSeeder.Seed(db);
+}
+
 // --- EKLENEN KISIM: Nokta/Virgül karmaşasını çözen evrensel sayı formatı ayarı ---
 var cultureInfo = new System.Globalization.CultureInfo("en-US");
 app.UseRequestLocalization(new RequestLocalizationOptions
